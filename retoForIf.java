@@ -1,17 +1,22 @@
-public class retoForIf{
-	public static void main(String[] args){
-		
-		for (int i=1; i<=21; i=i+1) {
-			for (int j=1;j<=21; j=j+1) {
-				
-				if (i==2 && j ==2) {
-					System.out.print(" O ");
-				} else {
-					System.out.print(" . ");
-				}
-				
-			}
-			System.out.println();
-		}
-	}
+public class retoForIf {
+    public static void main(String[] args) {
+        int dimension;
+        dimension = 21;
+
+        for (int j = 1; j <= dimension; j = j + 1) {
+            for (int i = 1; i <= dimension; i = i + 1) {
+
+                if (
+                // El código desde aqui
+                    i==2 && j==2
+                // El código hasta aquí
+                ) {
+                    System.out.print("(*)");
+                } else {
+                    System.out.print(" . ");
+                }
+            }
+            System.out.println();
+        }
+    }
 }
