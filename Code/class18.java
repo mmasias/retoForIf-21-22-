@@ -1,3 +1,4 @@
+package Code;
 public class class18{
     public static void main(String[] args){
         int x=1;
