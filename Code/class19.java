@@ -5,7 +5,7 @@ public class class19{
     for (int i=1; i<=21;i= i+1){
         for (int j=1;j<=21;j=j+1){
             
-            if (j==i+(i*4 )){
+            if (j==(22-i)){
                 System.out.print(" 0 ");
                 
                 
