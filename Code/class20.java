@@ -6,7 +6,7 @@ public class class20{
             //r^2=a^2+b^2;
             // r^2<=x^2+y^2;
             //r^2>=x^2+y^2; Hay que buscar como desplazarlo 
-            if(Math.pow(4, 2)>=Math.pow(i-11, 2)+ Math.pow(j-11, 2)||(Math.pow(5, 2)+1<=Math.pow(i-11, 2)+ Math.pow(j-11, 2))){
+            if(Math.pow(4, 2) >=Math.pow(i-11, 2)+ Math.pow(j-11, 2)||(Math.pow(5, 2)<Math.pow(i-11, 2)+ Math.pow(j-11, 2))){
                 System.out.print(" 0 ");
                 
                 
